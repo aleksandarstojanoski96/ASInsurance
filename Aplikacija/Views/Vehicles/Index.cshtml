@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Domain.Vehicle>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Vehicles</h2>
+<div class="button_cont" align="center"><a class="example_a" href="http://localhost:51683/" target="_blank" rel="nofollow noopener">Back Home</a></div>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeVehicle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Regnumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Chassis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MotorNum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Power)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Capacity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Color)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SeetsNum)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeVehicle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Regnumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Chassis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MotorNum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Power)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Capacity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Color)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SeetsNum)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

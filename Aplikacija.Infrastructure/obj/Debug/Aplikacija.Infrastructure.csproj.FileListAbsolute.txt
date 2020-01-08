@@ -1,0 +1,49 @@
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Infrastructure.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Infrastructure.pdb
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.csprojResolveAssemblyReference.cache
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.pdb
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Core.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\bin\Debug\EntityFramework.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Core.pdb
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\bin\Debug\EntityFramework.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Infrastructure.dll.config
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.InitialCreate.resources
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.csproj.GenerateResource.Cache
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.InitialCreate1.resources
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.InitialCreate2.resources
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.InitialCreate3.resources
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Infrastructure.dll.config
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Infrastructure.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Infrastructure.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Core.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Core.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.InitialCreate.resources
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.InitialCreate1.resources
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.InitialCreate2.resources
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.InitialCreate3.resources
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.csproj.GenerateResource.Cache
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.ACE.resources
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Infrastructure.dll.config
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Infrastructure.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Infrastructure.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Core.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\bin\Debug\Aplikacija.Core.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.Migrations.nova12.resources
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Infrastructure\obj\Debug\Aplikacija.Infrastructure.csproj.GenerateResource.Cache

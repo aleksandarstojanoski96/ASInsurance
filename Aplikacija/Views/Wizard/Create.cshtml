@@ -1,0 +1,325 @@
+﻿@model Aplikacija.Core.PolicyViewModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/scripts/jquery.validate.min.js"></script>
+<script src="~/scripts/jquery.validate-vsdoc.js"></script>
+<script src="~/scripts/jquery.validate.unobtrusive.min.js"></script>
+
+<script src="~/scripts/CustomScripts/FormSubmit.js"></script>
+<script src="~/scripts/CustomScripts/copyinputvalues.js"></script>
+<script src="~/scripts/CustomScripts/Infoforform.js"></script>
+@*<script src="~/scripts/CustomScripts/DisplayData.js"></script>
+<script src="~/scripts/CustomScripts/Validation.js"></script>*@
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="form-horizontal">
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                    <div class="container"></div>
+                    <div id="exTab3" class="container">
+                        <ul class="nav nav-pills">
+                            <li id="voziloklik" class="active">
+                                <a href="#1b" data-toggle="tab">Возило</a>
+                            </li>
+                            <li id="dogovaracklik">
+                                <a href="#2b" data-toggle="tab">Договарач</a>
+                            </li>
+                            <li id="osigurenikklik">
+                                <a href="#3b" data-toggle="tab">Осигуреник</a>
+                            </li>
+                            <li id="pokritieklik">
+                                <a href="#4b" data-toggle="tab">Покритие</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content clearfix">
+                            <div class="tab-pane active" id="1b">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.VehicleTypeVehicle, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.VehicleTypeVehicle, new { htmlAttributes = new { @class = "form-control"} })
+                                        @Html.ValidationMessageFor(model => model.VehicleTypeVehicle, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.VehicleRegnumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.VehicleRegnumber, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.VehicleRegnumber, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.VehicleChassis, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.VehicleChassis, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.VehicleChassis, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.VehicleMotorNum, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.VehicleMotorNum, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.VehicleMotorNum, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.VehiclePower, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.VehiclePower, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.VehiclePower, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group" id="veh_id">
+                                    @Html.LabelFor(model => model.VehicleCapacity, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.VehicleCapacity, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.VehicleCapacity, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.VehicleColor, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.VehicleColor, new { htmlAttributes = new { @class = "form-control", title = "TESTIRANJE" } })
+                                        @Html.ValidationMessageFor(model => model.VehicleColor, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.VehicleSeetsNum, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.VehicleSeetsNum, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.VehicleSeetsNum, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                               @*<a href="#2b" class="continue" data-toggle="tab-pane">Continue</a>*@
+                            </div>
+                            <div class="tab-pane" id="2b">
+                                <div class="form-group" id="contract_id">
+                                    @Html.LabelFor(model => model.ContractorTipkind, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("ContractorTipkind", (IEnumerable<SelectListItem>)ViewBag.ContractorTipkind, new { @class = "dropdown" })
+                                        @Html.ValidationMessageFor(model => model.ContractorTipkind, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <br />
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ContractorName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.ContractorName, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.ContractorName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group" id="prezime">
+                                    @Html.LabelFor(model => model.ContractorSurname, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.ContractorSurname, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.ContractorSurname, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div id="embg">
+                                    <div class="form-group" id="proba">
+                                        @Html.LabelFor(model => model.ContractorEMBG, htmlAttributes: new { @class = "control-label col-md-2" })
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.ContractorEMBG, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.ContractorEMBG, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <script>
+
+                                </script>
+                                <div id="regnumber">
+                                    <div class="form-group" id="reg_id" style="display: none;">
+                                        @Html.LabelFor(model => model.ContractorRegnumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                                        <div class="col-md-10">
+                                            @Html.EditorFor(model => model.ContractorRegnumber, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.ContractorRegnumber, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ContractorPhone, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.ContractorPhone, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.ContractorPhone, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ContractorFax, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.ContractorFax, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.ContractorFax, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="3b">
+
+
+
+                                <div class="form-group" id="insured_id">
+                                    @Html.LabelFor(model => model.InsuredTipkind, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("InsuredTipkind", (IEnumerable<SelectListItem>)ViewBag.InsuredTipkind, new { @class = "dropdown" })
+                                        @Html.ValidationMessageFor(model => model.InsuredTipkind, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <span style="font-size: larger">Договарач==Осигуреник &nbsp;&nbsp;</span><input type="checkbox" id="myCheck" onclick="myFunction()">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.InsuredName, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.InsuredName, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.InsuredName, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group" id="prezime1">
+                                    @Html.LabelFor(model => model.InsuredSurname, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.InsuredSurname, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.InsuredSurname, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group" id="proba1">
+                                    @Html.LabelFor(model => model.InsuredEMBG, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.InsuredEMBG, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.InsuredEMBG, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group" id="reg_id1" style="display: none;">
+                                    @Html.LabelFor(model => model.InsuredRegnumber, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.InsuredRegnumber, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.InsuredRegnumber, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.InsuredPhone, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.InsuredPhone, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.InsuredPhone, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.InsuredFax, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.InsuredFax, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.InsuredFax, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="4b">
+
+                                <div class="form-group" id="package_id">
+                                    @Html.LabelFor(model => model.Package, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("Package", (IEnumerable<SelectListItem>)ViewBag.Package, new { @class = "dropdown" })
+                                        @Html.ValidationMessageFor(model => model.Package, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group" id="franshiza_id">
+                                    @Html.LabelFor(model => model.Franshiza, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("Franshiza", (IEnumerable<SelectListItem>)ViewBag.Franshiza, new { @class = "dropdown" })
+                                        @Html.ValidationMessageFor(model => model.Franshiza, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.FromDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.FromDate, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.FromDate, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.ToDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.ToDate, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.ToDate, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <button type="submit" class="btn btn-default">Submit</button>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="col-sm-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Информации</div>
+                    <div class="panel-body">
+
+                        <ul id="ulvozilo">
+                            <li><b>Тип на Возило:</b> Каков тип е возилото, пример: Автомобил, Моторцикл и тн.</li>
+                            <li><b>Регистрација:</b> Број на регистарска таблица на возилото</li>
+                            <li><b>Број на шасија:</b> Бројот на шасијата на возилото </li>
+                            <li><b>Број на мотор:</b> Сериски број на моторот на возилото</li>
+                            <li><b>Број на коњнски сили:</b> Бројот на коњнски сили на моторот изразен во</li>
+                            <li><b>Капацитет на мотор:</b> Капацитетот на моторот на возилото изрезен во</li>
+                            <li><b>Боја:</b> Бојата на возилото </li>
+                            <li><b>Седишта:</b> Бројот на седишта на возилото</li>
+                        </ul>
+
+                        <ul id="uldogovaracosigurenik" style="display: none;">
+                            <li><b>Име: </b>Лично име за физичко лице, Име на фирмата за правно лице </li>
+                            <li><b>Презиме: </b>Важи само за физичко лице.</li>
+                            <li><b>Регистарски број: </b>Важи само за правно лице </li>
+                            <li><b>Моб.Тел: </b>Телефонски број</li>
+                            <li><b>Факс: </b>Факс(Опционално)</li>
+                        </ul>
+
+                        <ul id="ulpokritie" style="display: none;">
+                            <li><b>Пакет: </b>Компакт пакет: Основен пакет ; Премиум пакет: Пакет со дополнителни можности ; Ексклузив: Пакет со многу можности</li>
+                            <li><b>Франшиза: </b>Одберете една од понудените опции</li>
+                            <li><b>Од Дата: </b>Почеток на важност на покритието</li>
+                            <li><b>До Дата: </b>Крај на важност на покритието</li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

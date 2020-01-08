@@ -1,0 +1,270 @@
+﻿@model IEnumerable<Aplikacija.Core.PolicyViewModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractorTipkind.Title)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.PolicyID)
+        </th>*@
+        @*<th>
+            @Html.DisplayNameFor(model => model.Serial)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.FromDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ToDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateSale)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Premium)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DDV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Premiumtotal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SumOsig)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.ContractorID)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.ContractorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractorSurname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractorEMBG)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractorRegnumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractorPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContractorFax)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.InsuredID)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.InsuredName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InsuredSurname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InsuredEMBG)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InsuredRegnumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InsuredPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InsuredFax)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.InsuredBirthDate)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.BeneficiaryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BeneficiarySurname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BeneficiaryEMBG)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BeneficiaryRegnumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BeneficiaryPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BeneficiaryFax)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.VehicleID)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleTypeVehicle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleRegnumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleChassis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleMotorNum)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehiclePower)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleCapacity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleColor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VehicleSeetsNum)
+        </th>
+        <th></th>
+    </tr>
+@if (Model != null)
+{
+foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractorTipkind.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PolicyID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Serial)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FromDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ToDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateSale)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Premium)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DDV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Premiumtotal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SumOsig)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractorID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractorName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractorSurname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractorEMBG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractorRegnumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractorPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContractorFax)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InsuredID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InsuredName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InsuredSurname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InsuredEMBG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InsuredRegnumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InsuredPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InsuredFax)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InsuredBirthDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BeneficiaryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BeneficiarySurname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BeneficiaryEMBG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BeneficiaryRegnumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BeneficiaryPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BeneficiaryFax)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehicleID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehicleTypeVehicle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehicleRegnumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehicleChassis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehicleMotorNum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehiclePower)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehicleCapacity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehicleColor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VehicleSeetsNum)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+        </td>
+    </tr>
+}}
+
+</table>

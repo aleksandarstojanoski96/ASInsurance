@@ -1,0 +1,274 @@
+﻿@model Aplikacija.Core.PolicyViewModel
+
+
+@{
+    ViewBag.Title = "Test";
+    Layout = "";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<script src="~/scripts/jquery-1.12.4.min.js"></script>
+<script src="~/scripts/bootstrap.js"></script>
+<script src="~/scripts/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+<script src="~/scripts/CustomScripts/DisplayData.js"></script>
+<h3>  </h3>
+<body style="background-image: url('../../Content1/background-car1.png'); height: 100%; background-position: center; background-repeat: no-repeat; background-size: cover;">
+    <div class="container">
+        <div class="row">
+            <div class="well col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-3">
+                <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        <address>
+                            <strong>ASInsurance</strong>
+                            <br>
+                            Ilindenska 31
+                            <br>
+                            Skopje, 1000
+                            <br>
+                            <abbr title="Phone">P:</abbr> (02) 484-6829
+                        </address>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 text-right">
+                        <p>
+                            <em>Датум на продажба: </em><p><b>@Model.DateSale</b></p>
+                        </p>
+                        <p>
+                            <em>Број на полиса:</em>
+                            <p><b>@Model.PolicyID</b></p>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="text-center">
+                        <h1>Полиса</h1>
+                    </div>
+                    </span>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Продукт</th>
+                                <th>###</th>
+                                <th class="text-center">Цена</th>
+                                <th class="text-center">Вкупно</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-md-9"><em>АО Осигурување</em></td>
+                                <td class="col-md-1" style="text-align: center"> 1 </td>
+                                <td class="col-md-1 text-center">$13</td>
+                                <td class="col-md-1 text-center">$26</td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9"><em> @Model.Franshiza.Name</em></td>
+                                <td class="col-md-1" style="text-align: center"> 1 </td>
+                                <td class="col-md-1 text-center">$8</td>
+                                <td class="col-md-1 text-center">$8</td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-9"><em>@Model.Package.Name</em><span><em> Пакет</em></span></td>
+                                <td class="col-md-1" style="text-align: center"> 1 </td>
+                                <td class="col-md-1 text-center">$16</td>
+                                <td class="col-md-1 text-center">$48</td>
+                            </tr>
+                            <tr>
+                                <td>   </td>
+                                <td>   </td>
+                                <td class="text-right">
+                                    <p>
+                                        <strong>Вкупно: </strong>
+                                    </p>
+                                    <p>
+                                        <strong>ДДВ: </strong>
+                                    </p>
+                                </td>
+                                <td class="text-center">
+                                    <p>
+                                        <strong>$6.94</strong>
+                                    </p>
+                                    <p>
+                                        <strong>$6.94</strong>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>   </td>
+                                <td>   </td>
+                                <td class="text-right"><h4><strong>Total: </strong></h4></td>
+                                <td class="text-center text-danger"><h4><strong>$31.53</strong></h4></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLongTitle">Наплата</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                   <script>
+                                       $(function () {
+                                           $('[data-toggle="tooltip"]').tooltip()
+                                       })
+                                   </script>
+                                    <!--Naplata-->
+
+                                    <div class="container">
+
+                                        <!-- For demo purpose -->
+                                        <div class="row">
+                                        </div>
+                                        <!-- End -->
+
+
+                                        <div class="row">
+                                            <div class="col mx-auto">
+                                                <div class="bg-white rounded-lg shadow-sm p-5">
+                                                    <!-- Credit card form tabs -->
+                                                    <ul role="tablist" class="nav bg-light nav-pills rounded-pill nav-fill mb-3">
+                                                        <li class="nav-item">
+                                                            <a data-toggle="pill" href="#nav-tab-card" class="nav-link active rounded-pill">
+                                                                <i class="fa fa-credit-card"></i>
+                                                                Credit Card
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a data-toggle="pill" href="#nav-tab-paypal" class="nav-link rounded-pill">
+                                                                <i class="fa fa-paypal"></i>
+                                                                Paypal
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a data-toggle="pill" href="#nav-tab-bank" class="nav-link rounded-pill">
+                                                                <i class="fa fa-university"></i>
+                                                                Bank Transfer
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- End -->
+                                                    <!-- Credit card form content -->
+                                                    <div class="tab-content">
+
+                                                        <!-- credit card info-->
+                                                        <div id="nav-tab-card" class="tab-pane fade show active">
+                                                            @*<p class="alert alert-success">Some text success or error</p>*@
+                                                            <br>
+                                                            <form role="form">
+                                                                <div class="form-group">
+                                                                    <label for="username">Име и презиме (на кредитната картичка)</label>
+                                                                    <input type="text" name="username" placeholder="Петре Петрески" required class="form-control">
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="cardNumber">Кредитна картичка</label>
+                                                                    <div class="input-group">
+                                                                        <input type="text" name="cardNumber" placeholder="Број на кредитна картичка" class="form-control" required>
+                                                                        <div class="input-group-append">
+                                                                            <span class="input-group-text text-muted">
+                                                                                <i class="fa fa-cc-visa mx-1"></i>
+                                                                                <i class="fa fa-cc-amex mx-1"></i>
+                                                                                <i class="fa fa-cc-mastercard mx-1"></i>
+                                                                            </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-sm-8">
+                                                                        <div class="form-group">
+                                                                            <label><span class="hidden-xs">Важност: </span></label>
+                                                                            <div class="input-group">
+                                                                                <input type="number" placeholder="MM" name="" class="form-control" required>
+                                                                                <input type="number" placeholder="YY" name="" class="form-control" required>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-4">
+                                                                        <div class="form-group mb-4">
+                                                                            <label data-toggle="tooltip" title="Three-digits code on the back of your card">
+                                                                                CVV
+                                                                                <i class="fa fa-question-circle"></i>
+                                                                            </label>
+                                                                            <input type="text" required class="form-control">
+                                                                        </div>
+                                                                    </div>
+
+
+
+                                                                </div>
+                                                                <button type="button" class="subscribe btn btn-primary btn-block rounded-pill shadow-sm"> Confirm  </button>
+                                                            </form>
+                                                        </div>
+                                                        <!-- End -->
+                                                        <!-- Paypal info -->
+                                                        <div id="nav-tab-paypal" class="tab-pane fade">
+                                                            <p>Paypal is easiest way to pay online</p>
+                                                            <p>
+                                                                <button type="button" class="btn btn-primary rounded-pill"><i class="fa fa-paypal mr-2"></i> Log into my Paypal</button>
+                                                            </p>
+                                                            @*<p class="text-muted">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                            </p>*@
+                                                        </div>
+                                                        <!-- End -->
+                                                        <!-- bank transfer info -->
+                                                        <div id="nav-tab-bank" class="tab-pane fade">
+                                                            <h6>Bank account details</h6>
+                                                            <dl>
+                                                                <dt>Bank</dt>
+                                                                <dd> THE WORLD BANK</dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>Account number</dt>
+                                                                <dd>7775877975</dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>IBAN</dt>
+                                                                <dd>CZ7775877975656</dd>
+                                                            </dl>
+                                                            @*<p class="text-muted">
+                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                            </p>*@
+                                                        </div>
+                                                        <!-- End -->
+                                                    </div>
+                                                    <!-- End -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--NaplataEnd-->
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    @*<button type="button" class="btn btn-primary">Save changes</button>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <button type="button" class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#exampleModalCenter">
+                        Наплати  <span class="glyphicon glyphicon-chevron-right"></span>
+                    </button>
+
+                   
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+

@@ -1,0 +1,112 @@
+﻿@model IEnumerable<Domain.Policy>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Serial)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FromDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ToDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateSale)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Package)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Franshiza)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Premium)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DDV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Premiumtotal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SumOsig)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Valute)
+        </th>*@
+        @*<th>
+            @Html.DisplayNameFor(model => model.Moment)
+        </th>*@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        @*<td>
+        @Html.DisplayFor(modelItem => item.Serial)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Type)
+    </td>
+        *@<td>
+            @Html.DisplayFor(modelItem => item.ID)
+        </td>
+        <td>
+        @Convert.ToString(string.Format("{0:dd/MM/yyyy}", item.FromDate))
+        </td>
+        <td>
+@Convert.ToString(string.Format("{0:dd/MM/yyyy}", item.ToDate))
+        </td>
+        <td>
+           @Convert.ToString(string.Format("{0:dd/MM/yyyy}", item.DateSale))
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Package)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Franshiza)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.Premium)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DDV)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Premiumtotal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SumOsig)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Valute)
+        </td>*@
+        @*<td>
+            @Html.DisplayFor(modelItem => item.Moment)
+        </td>*@
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }, new { target = "_blank" }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID}, new { target = "_blank" }) |
+            @*@Html.ActionLink("Delete", "Delete", new { id=item.ID })*@
+        </td>
+    </tr>
+}
+
+</table>

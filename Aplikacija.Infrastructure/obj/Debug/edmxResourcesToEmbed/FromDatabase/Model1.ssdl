@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PolicyAPPdbcopyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Franshizas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Value" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Packages">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Status" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Tipkinds">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Valutes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" />
+    <Property Name="Sign" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="PolicyAPPdbcopyModelStoreContainer">
+    <EntitySet Name="Franshizas" EntityType="Self.Franshizas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Packages" EntityType="Self.Packages" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tipkinds" EntityType="Self.Tipkinds" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Valutes" EntityType="Self.Valutes" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,19 @@
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Core\bin\Debug\Aplikacija.Core.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Core\bin\Debug\Aplikacija.Core.pdb
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Core\obj\Debug\Aplikacija.Core.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Core\obj\Debug\Aplikacija.Core.pdb
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Core\bin\Debug\EntityFramework.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Core\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Core\bin\Debug\EntityFramework.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\astojanovski\Documents\Visual Studio 2015\Projects\Aplikacija\Aplikacija.Core\obj\Debug\Aplikacija.Core.csprojResolveAssemblyReference.cache
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Core\bin\Debug\Aplikacija.Core.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Core\bin\Debug\Aplikacija.Core.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Core\obj\Debug\Aplikacija.Core.csprojResolveAssemblyReference.cache
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Core\obj\Debug\Aplikacija.Core.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija.Core\obj\Debug\Aplikacija.Core.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Core\bin\Debug\Aplikacija.Core.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Core\bin\Debug\Aplikacija.Core.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Core\obj\Debug\Aplikacija.Core.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Core\obj\Debug\Aplikacija.Core.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija.Core\obj\Debug\Aplikacija.Core.csprojResolveAssemblyReference.cache

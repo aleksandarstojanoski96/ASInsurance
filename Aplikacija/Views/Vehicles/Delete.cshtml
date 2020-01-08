@@ -1,0 +1,88 @@
+﻿@model Domain.Vehicle
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Vehicle</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TypeVehicle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TypeVehicle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Regnumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Regnumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Chassis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Chassis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MotorNum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MotorNum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Power)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Power)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Capacity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Capacity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Color)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Color)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SeetsNum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SeetsNum)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

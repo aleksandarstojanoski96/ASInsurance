@@ -1,0 +1,131 @@
+﻿@model Domain.Policy
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Policy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Serial)
+        </dt>*@
+
+        @*<dd>
+            @Html.DisplayFor(model => model.Serial)
+        </dd>*@
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>*@
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.SubType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SubType)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FromDate)
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.FromDate)*@ @Model.FromDate.Date.ToString("MM/dd/yyyy")
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ToDate)
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.ToDate)*@ @Model.ToDate.Date.ToString("MM/dd/yyyy")
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateSale)
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.DateSale)*@ @Model.DateSale.Date.ToString("MM/dd/yyyy")
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Package)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Package)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Franshiza)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Franshiza)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Premium)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Premium)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DDV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DDV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Premiumtotal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Premiumtotal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SumOsig)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SumOsig)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Valute)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Valute)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Moment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Moment)
+        </dd>*@
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

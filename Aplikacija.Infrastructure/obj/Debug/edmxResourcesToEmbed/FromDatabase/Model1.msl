@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PolicyAPPdbcopyModelStoreContainer" CdmEntityContainer="PolicyAPPdbcopyEntities">
+    <EntitySetMapping Name="Franshizas">
+      <EntityTypeMapping TypeName="PolicyAPPdbcopyModel.Franshiza">
+        <MappingFragment StoreEntitySet="Franshizas">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Packages">
+      <EntityTypeMapping TypeName="PolicyAPPdbcopyModel.Package">
+        <MappingFragment StoreEntitySet="Packages">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipkinds">
+      <EntityTypeMapping TypeName="PolicyAPPdbcopyModel.Tipkind">
+        <MappingFragment StoreEntitySet="Tipkinds">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Valutes">
+      <EntityTypeMapping TypeName="PolicyAPPdbcopyModel.Valute">
+        <MappingFragment StoreEntitySet="Valutes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Sign" ColumnName="Sign" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

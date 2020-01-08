@@ -1,0 +1,162 @@
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\ApplicationInsights.config
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\csc.exe
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\System.Collections.Immutable.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\vbc.exe
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\VBCSCompiler.exe
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\roslyn\VBCSCompiler.exe.config
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Aplikacija.dll.config
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Aplikacija.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Aplikacija.pdb
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.Web.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.WindowsServer.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.ApplicationInsights.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.Web.Infrastructure.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Helpers.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Mvc.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Razor.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Webpages.Deployment.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Webpages.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Webpages.Razor.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.Web.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.AI.WindowsServer.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.ApplicationInsights.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Razor.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Webpages.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Webpages.Deployment.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Webpages.Razor.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Helpers.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\System.Web.Mvc.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\obj\Debug\Aplikacija.csprojResolveAssemblyReference.cache
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\obj\Debug\Aplikacija.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\obj\Debug\Aplikacija.pdb
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Aplikacija.Core.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Aplikacija.Infrastructure.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\EntityFramework.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\EntityFramework.SqlServer.dll
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Aplikacija.Core.pdb
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\Aplikacija.Infrastructure.pdb
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\EntityFramework.xml
+c:\users\astojanovski\documents\visual studio 2015\Projects\Aplikacija\Aplikacija\bin\EntityFramework.SqlServer.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\ApplicationInsights.config
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\csc.exe
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\vbc.exe
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\VBCSCompiler.exe
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Aplikacija.dll.config
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Aplikacija.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Aplikacija.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Aplikacija.Core.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Aplikacija.Infrastructure.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\EntityFramework.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\EntityFramework.SqlServer.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.Web.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.ApplicationInsights.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Helpers.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Mvc.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Razor.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Webpages.Deployment.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Webpages.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Webpages.Razor.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Aplikacija.Core.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Aplikacija.Infrastructure.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\EntityFramework.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\EntityFramework.SqlServer.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.Web.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.ApplicationInsights.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Razor.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Webpages.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Webpages.Deployment.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Webpages.Razor.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Helpers.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\bin\System.Web.Mvc.xml
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\obj\Debug\Aplikacija.csprojResolveAssemblyReference.cache
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\obj\Debug\Aplikacija.dll
+C:\Users\astojanovski\Pictures\AplikacijaV3.0\Aplikacija\obj\Debug\Aplikacija.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\ApplicationInsights.config
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\csc.exe
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\vbc.exe
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\VBCSCompiler.exe
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Aplikacija.dll.config
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Aplikacija.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Aplikacija.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Aplikacija.Core.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Aplikacija.Infrastructure.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\EntityFramework.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\EntityFramework.SqlServer.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.Web.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.ApplicationInsights.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Helpers.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Mvc.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Razor.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Webpages.Deployment.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Webpages.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Webpages.Razor.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Aplikacija.Core.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Aplikacija.Infrastructure.pdb
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\EntityFramework.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\EntityFramework.SqlServer.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.Web.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.ApplicationInsights.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Razor.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Webpages.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Webpages.Deployment.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Webpages.Razor.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Helpers.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\bin\System.Web.Mvc.xml
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\obj\Debug\Aplikacija.csprojResolveAssemblyReference.cache
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\obj\Debug\Aplikacija.dll
+C:\Users\astojanovski\Pictures\AplikacijaV5.0\Aplikacija\obj\Debug\Aplikacija.pdb
